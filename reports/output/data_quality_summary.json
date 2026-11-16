@@ -1,0 +1,21 @@
+{
+  "total_records": 6106,
+  "total_students_rows": 270,
+  "unique_students": 270,
+  "records_with_derived_percent": 5273,
+  "records_missing_value": 8,
+  "percent_out_of_range_count": 38,
+  "issue_count_types": 2,
+  "issues": [
+    {
+      "check": "percent_out_of_range_0_100",
+      "count": 38,
+      "severity": "medium"
+    },
+    {
+      "check": "non_numeric_or_non_derivable_entries",
+      "count": 143,
+      "severity": "info"
+    }
+  ]
+}

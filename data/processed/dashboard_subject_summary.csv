@@ -1,0 +1,6 @@
+subject,entry_count,mean_percent,median_percent,min_percent,max_percent,std_percent
+ELA,682,70.22,68.33,8.33,250.0,27.76
+Math,1086,87.7,85.71,7.0,1410.26,87.36
+Other/Unspecified,2558,73.48,77.96,0.0,100.0,21.48
+Science,518,963.95,75.0,10.0,231050.0,14333.72
+Social Studies,429,69.22,70.0,10.0,100.0,18.74

@@ -1,0 +1,16 @@
+sheet,grade,class_section,class_label,student_count,mean_percent,median_percent,min_percent,max_percent,std_percent
+G1 ( Kangaroo),G1,Kangaroo,G1 (Kangaroo),22,78.8,80.77,57.47,94.13,9.35
+Grade 1 (Koala),Grade 1,Koala,Grade 1 (Koala),21,73.52,72.96,60.11,92.0,7.89
+Grade 2 (Falcon),Grade 2,Falcon,Grade 2 (Falcon),14,59.91,58.11,34.79,80.44,12.97
+Grade 2 (Flamingo),Grade 2,Flamingo,Grade 2 (Flamingo),18,71.41,70.85,59.34,89.7,8.72
+Grade 2 (Fox),Grade 2,Fox,Grade 2 (Fox),16,110.67,115.85,69.64,133.41,19.37
+Grade 3 (Ladybug),Grade 3,Ladybug,Grade 3 (Ladybug),18,71.65,72.47,49.46,84.62,10.21
+Grade 3 (Leopard),Grade 3,Leopard,Grade 3 (Leopard),13,68.87,65.94,41.33,91.28,14.88
+Grade 3 (Lion),Grade 3,Lion,Grade 3 (Lion),19,79.18,81.08,51.45,98.84,13.21
+Grade 4 (Apple),Grade 4,Apple,Grade 4 (Apple),22,71.76,77.3,43.99,87.64,13.99
+Grade 4 (Microsoft),Grade 4,Microsoft,Grade 4 (Microsoft),20,74.69,78.25,49.13,93.88,12.97
+Grade 5 (Amazon),Grade 5,Amazon,Grade 5 (Amazon),18,1254.62,60.78,42.85,11589.88,3495.08
+Grade 6 (Tesla),Grade 6,Tesla,Grade 6 (Tesla),18,57.69,58.76,25.85,79.16,18.58
+Grade 7 (Oracle),Grade 7,Oracle,Grade 7 (Oracle),15,65.53,69.61,35.76,85.81,16.25
+KG (Panda),KG,Panda,KG (Panda),16,96.87,97.36,90.29,100.0,2.52
+KG (Penguins),KG,Penguins,KG (Penguins),19,91.57,91.88,81.06,97.27,3.97
