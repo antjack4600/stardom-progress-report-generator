@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Stardom Progress Report Generator
+GenericName=Progress report generator
+Comment=Generate class & student progress reports from assessment spreadsheets
+Exec=__EXEC__
+Icon=stardom-progress-report-generator
+Terminal=false
+Categories=Office;Education;
+StartupNotify=true

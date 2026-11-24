@@ -1,15 +1,17 @@
 [project]
 name = "stardom-progress-report-generator"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.2.0"
+description = "Automated student progress reports from Stardom school assessment spreadsheets (pipeline + desktop app)"
 requires-python = ">=3.12"
 dependencies = [
     "jinja2>=3.1.6",
+    "markdown>=3.5",
     "matplotlib>=3.11.2",
     "openpyxl>=3.1.5",
     "pandas>=3.1.1",
     "seaborn>=0.13.2",
     "tabulate>=0.10.0",
+    "PySide6>=6.7",
 ]
 
 [project.scripts]
@@ -18,3 +20,9 @@ stardom-progress-report-generator = "stardom_progress_report_generator:main"
 [build-system]
 requires = ["uv_build>=0.13.8,<0.14.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.22.3",
+    "pytest",
+]

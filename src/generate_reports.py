@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 import matplotlib
@@ -24,7 +25,18 @@ def ensure_dirs(out_dir: Path):
 
 
 def safe_name(s: str) -> str:
-    return ''.join(c if c.isalnum() or c in ' ._-()' else '_' for c in str(s)).strip().replace(' ', '_')
+    """Sanitize a string for use as a filename.
+
+    Keeps letters/digits and a few safe punctuation characters; replaces path
+    separators and other unsafe characters with '_'; collapses repeated dots;
+    and strips leading/trailing dots so '..' or '.hidden' style names cannot
+    escape the output directory.
+    """
+    cleaned = ''.join(c if c.isalnum() or c in ' _-.()' else '_' for c in str(s)).strip()
+    cleaned = re.sub(r'\.{2,}', '.', cleaned)  # collapse '..' style runs
+    cleaned = cleaned.strip(' .')               # no leading/trailing dots
+    cleaned = re.sub(r'\s+', '_', cleaned)
+    return cleaned or '_'
 
 
 def student_report_md(sheet, student, student_rows, subj_perf, overall_avg, class_avg):
